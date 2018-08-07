@@ -5,4 +5,4 @@
 .PHONY:clean
 
 clean:
-	rm -rf 2048
+	rm -f 2048
