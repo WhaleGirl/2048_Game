@@ -1,5 +1,5 @@
 #include"game_2048.h"
-
+void Draw();
 void init()
 {
 	int x,y;
@@ -316,7 +316,7 @@ void play()
 					a[new_y][new_x] = tmp+1;
 					empty--;
 				}
-		draw();
+		Draw();
 
 	}
 }
